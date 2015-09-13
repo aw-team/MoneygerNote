@@ -39,6 +39,9 @@
                                     <navigationItem title="Top" id="qvz-Qb-c0z">
                                         <barButtonItem key="leftBarButtonItem" title="編集" id="wcd-ev-S8o">
                                             <color key="tintColor" red="0.9999966025" green="0.99999994039999995" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="switchToAllGroupEdit:" destination="9pv-A4-QxB" id="HWP-49-SRr"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -62,12 +65,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="487.5" y="-32.5"/>
+            <point key="canvasLocation" x="429.5" y="-32.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Daily Expences View Controller-->
         <scene sceneID="BFZ-qY-hgC">
             <objects>
-                <viewController id="LUX-7g-Lxf" sceneMemberID="viewController">
+                <viewController id="LUX-7g-Lxf" customClass="DailyExpencesViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LgJ-QA-5jy"/>
                         <viewControllerLayoutGuide type="bottom" id="Hok-cQ-SKp"/>
@@ -86,6 +89,9 @@
                                     <navigationItem title="今日の支出" id="UPs-7o-729">
                                         <barButtonItem key="rightBarButtonItem" title="完了" id="elI-xe-3Ms">
                                             <color key="tintColor" red="0.9999966025" green="0.99999994039999995" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="backTo:" destination="LUX-7g-Lxf" id="L3a-im-Lqz"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -97,12 +103,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykm-oy-hbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942.5" y="-32.5"/>
+            <point key="canvasLocation" x="901.5" y="-32.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Specific Group Edit View Controller-->
         <scene sceneID="sly-Va-48t">
             <objects>
-                <viewController id="abD-kK-Uja" sceneMemberID="viewController">
+                <viewController id="abD-kK-Uja" customClass="SpecificGroupEditViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="knj-hT-gtp"/>
                         <viewControllerLayoutGuide type="bottom" id="i6x-97-1ab"/>
@@ -137,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="25.5" y="799.5"/>
         </scene>
-        <!--View Controller-->
+        <!--All Group Edit View Controller-->
         <scene sceneID="y12-2e-Lj5">
             <objects>
-                <viewController id="mFb-Sk-kaw" sceneMemberID="viewController">
+                <viewController id="mFb-Sk-kaw" customClass="AllGroupEditViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zmf-0e-6fz"/>
                         <viewControllerLayoutGuide type="bottom" id="ZVt-KQ-4mc"/>
@@ -159,6 +165,9 @@
                                     <navigationItem title="グループ編集" id="Vhi-WX-suO">
                                         <barButtonItem key="rightBarButtonItem" title="完了" id="fiE-bS-DYy">
                                             <color key="tintColor" red="0.9999966025" green="0.99999994039999995" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="backTo:" destination="mFb-Sk-kaw" id="FyR-hv-6AY"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -175,10 +184,10 @@
             </objects>
             <point key="canvasLocation" x="487.5" y="799.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Category Edit View Controller-->
         <scene sceneID="PoG-D2-IB6">
             <objects>
-                <viewController id="PHh-sP-Y70" sceneMemberID="viewController">
+                <viewController id="PHh-sP-Y70" customClass="CategoryEditViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g1p-4r-H55"/>
                         <viewControllerLayoutGuide type="bottom" id="vSj-N3-pka"/>
@@ -213,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="487.5" y="1623.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Category Select View Controller-->
         <scene sceneID="qol-fY-0yQ">
             <objects>
-                <viewController id="oKk-eo-CVx" sceneMemberID="viewController">
+                <viewController id="oKk-eo-CVx" customClass="CategorySelectViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RvP-bV-g2x"/>
                         <viewControllerLayoutGuide type="bottom" id="1WP-RK-toJ"/>
@@ -248,10 +257,10 @@
             </objects>
             <point key="canvasLocation" x="487.5" y="2433.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Monthly Expences View Controller-->
         <scene sceneID="QOa-pl-peH">
             <objects>
-                <viewController id="NBA-ju-joF" sceneMemberID="viewController">
+                <viewController id="NBA-ju-joF" customClass="MonthlyExpencesViewController" customModule="MoneygerNote" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iBm-SV-zVk"/>
                         <viewControllerLayoutGuide type="bottom" id="w0A-6B-ey8"/>
@@ -311,6 +320,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hr5-X6-KSX"/>
-        <segue reference="oDt-Uq-Yaz"/>
+        <segue reference="4xK-sF-h9x"/>
     </inferredMetricsTieBreakers>
 </document>

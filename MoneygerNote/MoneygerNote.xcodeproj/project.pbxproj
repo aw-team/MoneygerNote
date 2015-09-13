@@ -14,6 +14,12 @@
 		501D26BF1BA42FC80004F540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501D26BD1BA42FC80004F540 /* LaunchScreen.storyboard */; };
 		501D26CA1BA42FC80004F540 /* MoneygerNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26C91BA42FC80004F540 /* MoneygerNoteTests.swift */; };
 		501D26D51BA42FC80004F540 /* MoneygerNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26D41BA42FC80004F540 /* MoneygerNoteUITests.swift */; };
+		507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7391BA53642002132DA /* DailyExpencesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD73C1BA536F9002132DA /* MonthlyExpencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73F1BA53821002132DA /* CategoryEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7411BA5384F002132DA /* CategorySelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		501D26D01BA42FC80004F540 /* MoneygerNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneygerNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501D26D41BA42FC80004F540 /* MoneygerNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneygerNoteUITests.swift; sourceTree = "<group>"; };
 		501D26D61BA42FC80004F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507DD7391BA53642002132DA /* DailyExpencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyExpencesViewController.swift; sourceTree = "<group>"; };
+		507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyExpencesViewController.swift; sourceTree = "<group>"; };
+		507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGroupEditViewController.swift; sourceTree = "<group>"; };
+		507DD73F1BA53821002132DA /* CategoryEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryEditViewController.swift; sourceTree = "<group>"; };
+		507DD7411BA5384F002132DA /* CategorySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySelectViewController.swift; sourceTree = "<group>"; };
+		507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificGroupEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				501D26BB1BA42FC80004F540 /* Assets.xcassets */,
 				501D26BD1BA42FC80004F540 /* LaunchScreen.storyboard */,
 				501D26C01BA42FC80004F540 /* Info.plist */,
+				507DD7391BA53642002132DA /* DailyExpencesViewController.swift */,
+				507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */,
+				507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */,
+				507DD73F1BA53821002132DA /* CategoryEditViewController.swift */,
+				507DD7411BA5384F002132DA /* CategorySelectViewController.swift */,
+				507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */,
 			);
 			path = MoneygerNote;
 			sourceTree = "<group>";
@@ -255,8 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */,
 				501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */,
+				507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */,
+				507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */,
 				501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */,
+				507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */,
+				507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */,
+				507DD73C1BA536F9002132DA /* MonthlyExpencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

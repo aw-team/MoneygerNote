@@ -20,6 +20,14 @@
 		507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73F1BA53821002132DA /* CategoryEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7411BA5384F002132DA /* CategorySelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7471BA56FE3002132DA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7451BA56FE3002132DA /* Realm.framework */; };
+		507DD7481BA56FE3002132DA /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7451BA56FE3002132DA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		507DD7491BA56FE3002132DA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7461BA56FE3002132DA /* RealmSwift.framework */; };
+		507DD74A1BA56FE3002132DA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7461BA56FE3002132DA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74D1BA57080002132DA /* ExpenceItem.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74F1BA57205002132DA /* ExpenceCategory.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7531BA575D4002132DA /* ExpenceGroup.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7561BA5790C002132DA /* SampleDataMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7551BA5790C002132DA /* SampleDataMaker.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,21 @@
 			remoteInfo = MoneygerNote;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		507DD74B1BA56FE4002132DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				507DD74A1BA56FE3002132DA /* RealmSwift.framework in Embed Frameworks */,
+				507DD7481BA56FE3002132DA /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		501D26AF1BA42FC80004F540 /* MoneygerNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneygerNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +82,12 @@
 		507DD73F1BA53821002132DA /* CategoryEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryEditViewController.swift; sourceTree = "<group>"; };
 		507DD7411BA5384F002132DA /* CategorySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySelectViewController.swift; sourceTree = "<group>"; };
 		507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificGroupEditViewController.swift; sourceTree = "<group>"; };
+		507DD7451BA56FE3002132DA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		507DD7461BA56FE3002132DA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		507DD74D1BA57080002132DA /* ExpenceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceItem.swift; sourceTree = "<group>"; };
+		507DD74F1BA57205002132DA /* ExpenceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceCategory.swift; sourceTree = "<group>"; };
+		507DD7531BA575D4002132DA /* ExpenceGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceGroup.swift; sourceTree = "<group>"; };
+		507DD7551BA5790C002132DA /* SampleDataMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507DD7491BA56FE3002132DA /* RealmSwift.framework in Frameworks */,
+				507DD7471BA56FE3002132DA /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +120,8 @@
 		501D26A61BA42FC80004F540 = {
 			isa = PBXGroup;
 			children = (
+				507DD7451BA56FE3002132DA /* Realm.framework */,
+				507DD7461BA56FE3002132DA /* RealmSwift.framework */,
 				501D26B11BA42FC80004F540 /* MoneygerNote */,
 				501D26C81BA42FC80004F540 /* MoneygerNoteTests */,
 				501D26D31BA42FC80004F540 /* MoneygerNoteUITests */,
@@ -109,6 +142,7 @@
 		501D26B11BA42FC80004F540 /* MoneygerNote */ = {
 			isa = PBXGroup;
 			children = (
+				507DD74C1BA5704B002132DA /* Dao */,
 				501D26B21BA42FC80004F540 /* AppDelegate.swift */,
 				501D26B41BA42FC80004F540 /* FirstViewController.swift */,
 				501D26B81BA42FC80004F540 /* Main.storyboard */,
@@ -121,6 +155,7 @@
 				507DD73F1BA53821002132DA /* CategoryEditViewController.swift */,
 				507DD7411BA5384F002132DA /* CategorySelectViewController.swift */,
 				507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */,
+				507DD7551BA5790C002132DA /* SampleDataMaker.swift */,
 			);
 			path = MoneygerNote;
 			sourceTree = "<group>";
@@ -143,6 +178,16 @@
 			path = MoneygerNoteUITests;
 			sourceTree = "<group>";
 		};
+		507DD74C1BA5704B002132DA /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				507DD74D1BA57080002132DA /* ExpenceItem.swift */,
+				507DD74F1BA57205002132DA /* ExpenceCategory.swift */,
+				507DD7531BA575D4002132DA /* ExpenceGroup.swift */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +198,7 @@
 				501D26AB1BA42FC80004F540 /* Sources */,
 				501D26AC1BA42FC80004F540 /* Frameworks */,
 				501D26AD1BA42FC80004F540 /* Resources */,
+				507DD74B1BA56FE4002132DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,13 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */,
+				507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */,
 				501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */,
 				507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */,
 				507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */,
 				501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */,
+				507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */,
 				507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */,
+				507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */,
 				507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */,
 				507DD73C1BA536F9002132DA /* MonthlyExpencesViewController.swift in Sources */,
+				507DD7561BA5790C002132DA /* SampleDataMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +470,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MoneygerNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNote;
@@ -431,6 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MoneygerNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNote;

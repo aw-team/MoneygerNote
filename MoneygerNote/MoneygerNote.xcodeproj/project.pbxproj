@@ -26,7 +26,6 @@
 		507DD74A1BA56FE3002132DA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7461BA56FE3002132DA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74D1BA57080002132DA /* ExpenceItem.swift */; settings = {ASSET_TAGS = (); }; };
 		507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74F1BA57205002132DA /* ExpenceCategory.swift */; settings = {ASSET_TAGS = (); }; };
-		507DD7521BA574D5002132DA /* ExpenceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7511BA574D5002132DA /* ExpenceLog.swift */; settings = {ASSET_TAGS = (); }; };
 		507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7531BA575D4002132DA /* ExpenceGroup.swift */; settings = {ASSET_TAGS = (); }; };
 		507DD7561BA5790C002132DA /* SampleDataMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7551BA5790C002132DA /* SampleDataMaker.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -87,7 +86,6 @@
 		507DD7461BA56FE3002132DA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		507DD74D1BA57080002132DA /* ExpenceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceItem.swift; sourceTree = "<group>"; };
 		507DD74F1BA57205002132DA /* ExpenceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceCategory.swift; sourceTree = "<group>"; };
-		507DD7511BA574D5002132DA /* ExpenceLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceLog.swift; sourceTree = "<group>"; };
 		507DD7531BA575D4002132DA /* ExpenceGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceGroup.swift; sourceTree = "<group>"; };
 		507DD7551BA5790C002132DA /* SampleDataMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,7 +183,6 @@
 			children = (
 				507DD74D1BA57080002132DA /* ExpenceItem.swift */,
 				507DD74F1BA57205002132DA /* ExpenceCategory.swift */,
-				507DD7511BA574D5002132DA /* ExpenceLog.swift */,
 				507DD7531BA575D4002132DA /* ExpenceGroup.swift */,
 			);
 			name = Dao;
@@ -328,7 +325,6 @@
 				507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */,
 				507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */,
 				501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */,
-				507DD7521BA574D5002132DA /* ExpenceLog.swift in Sources */,
 				507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */,
 				507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */,
 				507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */,

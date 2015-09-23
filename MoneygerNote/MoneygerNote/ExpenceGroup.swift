@@ -11,7 +11,7 @@ import RealmSwift
 
 class ExpenceGroup: Object {
     dynamic var groupId = 0
-    dynamic var groupName = ""
+    dynamic var name = ""
     dynamic var position = 0
     dynamic var isCollapse = false
     

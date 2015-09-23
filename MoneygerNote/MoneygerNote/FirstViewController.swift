@@ -15,7 +15,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // DBの初期化をする場合はこのコメントアウトを外す
-        // try! SampleDataMeker()
+         try! SampleDataMeker()
     }
 
     override func didReceiveMemoryWarning() {

@@ -11,7 +11,8 @@ import RealmSwift
 
 class ExpenceCategory: Object {
     dynamic var categoryId = 0
-    dynamic var categoryName = ""
+    dynamic var name = ""
+    dynamic var colorCode = ""
     
     override static func primaryKey() -> String? {
         return "categoryId"

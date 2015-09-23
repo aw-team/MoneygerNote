@@ -11,12 +11,13 @@ import RealmSwift
 
 class ExpenceItem: Object {
     dynamic var itemId = 0
-    dynamic var groupId = 0
-    dynamic var itemName = ""
+    dynamic var group: ExpenceGroup?
+    dynamic var name = ""
     dynamic var position = 0
-    dynamic var categoryId = 0
+    dynamic var category: ExpenceCategory?
     dynamic var ammount = 0
     dynamic var imageInfo = ""
+    dynamic var expenceDate = NSDate()
     
     override static func primaryKey() -> String? {
         return "itemId"
